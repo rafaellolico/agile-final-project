@@ -18,9 +18,6 @@ Para que eu possa disponibilizar itens para venda no site de comércio eletrôni
 
 Cenário: Criar produto com dados válidos
 
-* Dado que o administrador do sistema está autenticado
-* E que ele acessa a página de cadastro de produtos
-* Quando o administrador preenche todos os campos obrigatórios com dados válidos
-* E clica no botão de salvar
-* Então o sistema deve registrar o produto no catálogo
-* E o produto deve aparecer na lista de produtos disponíveis
+* Dado que o administrador do sistema está autenticado e que ele acessa a página de cadastro de produtos
+* Quando o administrador preenche todos os campos obrigatórios com dados válidos e clica no botão de salvar
+* Então o sistema deve registrar o produto no catálogo e o produto deve aparecer na lista de produtos disponíveis
