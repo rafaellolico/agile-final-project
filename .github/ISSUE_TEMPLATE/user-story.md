@@ -16,6 +16,8 @@ Para que eu possa disponibilizar itens para venda no site de comércio eletrôni
 
 ## Critérios de Aceitação
 
-Dado que o administrador está autenticado no sistema,
-Quando ele envia os dados válidos de um novo produto,
-Então o produto deve ser salvo com sucesso no catálogo e estar disponível para consulta.
+Cenário: Criar um novo produto com sucesso
+
+Dado que o administrador do sistema está autenticado e acessando a página de cadastro de produtos,
+Quando o administrador preenche todos os campos obrigatórios com dados válidos e submete o formulário,
+Então o sistema deve salvar o produto no catálogo e exibir o novo produto na lista de produtos disponíveis.
