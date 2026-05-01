@@ -16,6 +16,6 @@ Para que eu possa disponibilizar itens para venda no site de comércio eletrôni
 
 ## Critérios de Aceitação
 
-* Dado o administrador está autenticado
+* Dado que o administrador está autenticado no sistema
 * Quando ele cria um novo produto com dados válidos
 * Então o produto é salvo no catálogo
